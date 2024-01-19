@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const App = () => {
   const [universities, setUniversities] = useState([]);
-  const apiUrl = '/api/search?country=Pakistan';
+  const apiUrl = 'http://universities.hipolabs.com/search?country=Pakistan';
 
   useEffect(() => {
     axios.get(apiUrl)

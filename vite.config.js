@@ -5,12 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/React-App-shows-Pak-Uni-List/',
   plugins: [react()],
-  server: {
-    proxy: {
-      '/api': {
-        target: 'http://universities.hipolabs.com',
-        changeOrigin: true,
-      },
-    },
-  },
 })
