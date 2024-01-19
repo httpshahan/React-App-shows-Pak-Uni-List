@@ -1,8 +1,58 @@
-# React + Vite
+# React University List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that fetches and displays a list of universities from the [Universities API](http://universities.hipolabs.com/).
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+
+- Node.js installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/httpshahan/React-App-shows-Pak-Uni-List.git
+    ```
+
+2. Change into the project directory:
+
+    ```bash
+    cd react-university-list
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Run the application:
+
+    ```bash
+    npm start
+    ```
+
+The app should now be running at `http://localhost:0000` in your browser.
+
+## Features
+
+- Fetches a list of universities from the API.
+- Displays each university in a card format with a two-column layout.
+- Provides a link to the university's website.
+
+## Styling
+
+The app uses the [Tailwind CSS](https://tailwindcss.com/) framework for styling. Tailwind CSS classes are applied for a clean and responsive design.
+
+## API Used
+
+- [Universities API](http://universities.hipolabs.com/)
+
+
+## Author
+
+- Shahan Ahmad
+
+Feel free to customize this `README.md` according to your project structure, features, and any additional information you'd like to include.
