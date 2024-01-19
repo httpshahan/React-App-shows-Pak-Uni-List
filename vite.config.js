@@ -7,7 +7,10 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'http://universities.hipolabs.com', // Replace with your actual API URL
+      '/api': {
+        target: 'http://universities.hipolabs.com',
+        changeOrigin: true,
+      },
     },
   },
 })
